@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100vw;
+    height: 10vh;
+    border-bottom: 1px solid gray;
+    justify-content: space-around;
+    background-color: chartreuse;
+    align-items: center;
+}
+
+#header-search {
+    width: 750px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 40px;
+    border-radius: 244px;
+    text-align: right;
+    padding: 10px 30px;
+
+}
+
+#div-header-search {
+    position: relative;
+}
+
+#search-icon {
+    position: absolute;
+    height: 90%;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.logo {
+    width: 200px;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-left-logo-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+}
+
+#person {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+
+.heder-left-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.sideBar {
+    position: fixed;
+    border-left: 1px solid gray;
+    top: 0;
+    height: 100%;
+    width: 19vw;
+}
+
+.content {
+    width: 80vw;
+    transform: translateX(-19vw);
+}
+
+.sideAndContent {
+    display: flex;
+    flex-direction: row-reverse;
+    transform: translateY(10vh);
+}
+
+.circleBox {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.circleBox div {
+    border: 1px solid gray;
+    border-radius: 50px;
+    width: 9.5%;
+    height: 100px;
+}
+
+.squareBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.squareBox div {
+    width: 20%;
+    height: 300px;
+    border: 1px solid black;
+    margin: 20px;
+}
